@@ -57,6 +57,7 @@ function createContainer(image, containerName, networkName) {
                     reject(err);
                     return;
                 }
+                console.log("Container Started!")
                 resolve(container);
             });
         });
